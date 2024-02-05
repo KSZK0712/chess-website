@@ -1,0 +1,235 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    min-height:100%;
+    width: 100%;
+    background-color:black;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+nav{
+    display: flex;
+    padding: 0.25% 6%;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+nav img{
+    width: 200px;
+}
+
+.nav-bar{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-bar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-bar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-bar ul li a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #EAF909;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-bar ul li a:hover:after{
+    width: 100%;
+}
+
+
+.text{
+    width: 90%;
+    color: black;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    text-align: center;
+}
+
+.text h1{
+    font-size: 80px;
+}
+
+.text h2{
+    font-size:45px;
+}
+
+.text p{
+    margin:10px 0 40px;
+    font-size: 22px;
+    color : black;
+}
+
+
+.feedback{
+    width: 90%;
+    color: black;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    text-align: center;
+}
+
+.feedback h1{
+    font-size: 75px;
+}
+
+.feedback p{
+    margin:10px 0 40px;
+    font-size: 20px;
+    color : black;
+}
+
+.feedback label{
+    font-size: 20px;
+    color : black;
+    padding-right: 20px;
+}
+
+.feedback input{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left:10px;
+    padding-right:10px;
+    border:1px solid#777;
+    border-radius:14px;
+    outline: black;
+
+}
+
+.players{
+    width: 90%;
+    color: black;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    text-align: center
+}
+
+.players h1{
+    font-size: 60px;
+}
+
+.players h2{
+    font-size: 30px;
+}
+
+.players p{
+    font-size:20px;
+}
+
+.players-ding img{
+    width: 50%;
+}
+
+.players-magnus img{
+    width: 50%;
+}
+
+.players-vishy img{
+    width: 50%;
+}
+
+.players-bobby img{
+    width:50%;
+}
+
+.players-garry img{
+    width: 50%;
+}
+
+.resources{
+    width: 90%;
+    color: black;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    text-align: center
+}
+
+.resources h1{
+    font-size: 60px;
+}
+
+.resources p{
+    font-size: 20px;
+}
+
+.resources h2{
+    font-size: 50px;
+}
+
+.resources h3{
+    font-size: 35px;
+}
+
+.resources-lichess img{
+    width: 30%;
+}
+
+.resources-chess img{
+    width: 20%;
+}
+
+.resources-chessable img{
+    width: 40%;
+}
+
+.resources-gotham img{
+    width: 50%;
+}
+
+.resources-chessbase img{
+    width: 40%;
+}
+
+.about{
+    width: 90%;
+    color: black;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    text-align: center
+}
+
+.about h1{
+    font-size:60px;
+}
+
+.about h2{
+    font-size:45px;
+}
+
+.about p{
+    font-size:20px;
+}
+
+.about-chess img{
+    width: 60%;
+}
+
+.about-history img{
+    width: 60%;
+}
